@@ -53,4 +53,29 @@ outline: 0;
     background: #3a3ae2;
     transition: 0.5s;
 }
+  
+@media (max-width:1000px){
+    .logo{
+        width: 140px;
 
+    }
+    nav ul li {
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width : 840px){
+    nav{
+        padding: 15 px;
+    }
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0 ;
+        background: #212EA0;
+        z-index: -1;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+}
